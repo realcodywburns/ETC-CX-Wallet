@@ -5,6 +5,7 @@ var ajaxReq = function() {}
 ajaxReq.http = null;
 ajaxReq.postSerializer = null;
 ajaxReq.SERVERURL = "https://rpc.myetherwallet.com:8443/api.mew";
+ajaxReq.DAOPROPOSALSURL = "https://rpc.myetherwallet.com/TheDAO/getDAOProposals.php";
 ajaxReq.COINMARKETCAPAPI = "https://coinmarketcap-nexuist.rhcloud.com/api/";
 ajaxReq.pendingPosts = [];
 ajaxReq.config = {
@@ -2070,7 +2071,7 @@ var globalService = function($http, $httpParamSerializerJQLike) {
       mew: true,
       cx: false
     },
-
+    
     contracts: {
       id: 9,
       name: "Contracts",

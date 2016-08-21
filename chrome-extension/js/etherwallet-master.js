@@ -4,7 +4,7 @@ var http;
 var ajaxReq = function() {}
 ajaxReq.http = null;
 ajaxReq.postSerializer = null;
-ajaxReq.SERVERURL = "https://rpc.myetherwallet.com/api.php";
+ajaxReq.SERVERURL = "https://rpc.myetherwallet.com:8443/api.mew";
 ajaxReq.DAOPROPOSALSURL = "https://rpc.myetherwallet.com/TheDAO/getDAOProposals.php";
 ajaxReq.COINMARKETCAPAPI = "https://coinmarketcap-nexuist.rhcloud.com/api/";
 ajaxReq.pendingPosts = [];
@@ -1106,8 +1106,8 @@ var theDaoCtrl = function($scope, $sce, walletService) {
 									$scope.withdrawTxStatus = $sce.trustAsHtml(globalFuncs.getDangerText(data.msg));
 								} else {
 									if ($scope.setBalance !== undefined) $scope.setBalance();
-                                    $scope.sendTxStatus = $sce.trustAsHtml("Approval Transaction: " + globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http://etherscan.io/tx/" + approveTx + "' target='_blank'>" + approveTx + "</a>"));
-									$scope.withdrawTxStatus = $sce.trustAsHtml("Withdrawal Transaction: " + globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http://etherscan.io/tx/" + data.data + "' target='_blank'>" + data.data + "</a>"));
+                                    $scope.sendTxStatus = $sce.trustAsHtml("Approval Transaction: " + globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http:// etherhub.io/tx/" + approveTx + "' target='_blank'>" + approveTx + "</a>"));
+									$scope.withdrawTxStatus = $sce.trustAsHtml("Withdrawal Transaction: " + globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http:// etherhub.io/tx/" + data.data + "' target='_blank'>" + data.data + "</a>"));
 								}
 							});
 						});
@@ -1622,7 +1622,7 @@ globalFuncs.postDelay = 300;
 globalFuncs.kdf = "scrypt";
 globalFuncs.defaultTxGasLimit = 21000;
 globalFuncs.digixClaimTxGasLimit = 150000;
-globalFuncs.donateAddress = "0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8";
+globalFuncs.donateAddress = " 0xCe5ED529977b08f87CBc207ebC216859820461eE";
 globalFuncs.isNumeric = function(n) {
 	return !isNaN(parseFloat(n)) && isFinite(n);
 }
@@ -2167,7 +2167,7 @@ uiFuncs.sendTx = function($scope, $sce) {
 			$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getDangerText(data.msg));
 		} else {
 			if( $scope.setBalance !== undefined ) $scope.setBalance();
-			$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http://etherscan.io/tx/" + data.data + "' target='_blank'>" + data.data + "</a>"));
+			$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<a href='http://etherhub.io/tx/" + data.data + "' target='_blank'>" + data.data + "</a>"));
 		}
 	});
 }

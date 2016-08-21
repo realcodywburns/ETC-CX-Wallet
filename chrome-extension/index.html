@@ -154,7 +154,7 @@
         <div class="form-group">
           <h4>2. Save Your Address.
             <div class="account-help-icon"><svg version="1.1" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 92 92" style="enable-background:new 0 0 92 92;" xml:space="preserve"><path fill="#2bb2dd" d="M45.386,0.004C19.983,0.344-0.333,21.215,0.005,46.619c0.34,25.393,21.209,45.715,46.611,45.377 c25.398-0.342,45.718-21.213,45.38-46.615C91.656,19.986,70.786-0.335,45.386,0.004z M45.25,74l-0.254-0.004 c-3.912-0.116-6.67-2.998-6.559-6.852c0.109-3.788,2.934-6.538,6.717-6.538l0.227,0.004c4.021,0.119,6.748,2.972,6.635,6.937 C51.904,71.346,49.123,74,45.25,74z M61.705,41.341c-0.92,1.307-2.943,2.93-5.492,4.916l-2.807,1.938 c-1.541,1.198-2.471,2.325-2.82,3.434c-0.275,0.873-0.41,1.104-0.434,2.88l-0.004,0.451H39.43l0.031-0.907 c0.131-3.728,0.223-5.921,1.768-7.733c2.424-2.846,7.771-6.289,7.998-6.435c0.766-0.577,1.412-1.234,1.893-1.936 c1.125-1.551,1.623-2.772,1.623-3.972c0-1.665-0.494-3.205-1.471-4.576c-0.939-1.323-2.723-1.993-5.303-1.993 c-2.559,0-4.311,0.812-5.359,2.478c-1.078,1.713-1.623,3.512-1.623,5.35v0.457H27.936l0.02-0.477 c0.285-6.769,2.701-11.643,7.178-14.487C37.947,18.918,41.447,18,45.531,18c5.346,0,9.859,1.299,13.412,3.861 c3.6,2.596,5.426,6.484,5.426,11.556C64.369,36.254,63.473,38.919,61.705,41.341z"/></svg>
-            <span class="account-help-text">You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you ETH. That icon is an easy way to recognize your address.</span></div>
+            <span class="account-help-text">You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you ETC. That icon is an easy way to recognize your address.</span></div>
           </h4>
           <input class="form-control" type="text" readonly="readonly" ng-value="wallet.getChecksumAddressString()"/>
         </div>
@@ -210,7 +210,7 @@
 <div class="tab-pane active" ng-if="globalService.currentTab==globalService.tabs.viewWalletInfo.id">
   <h2> View Wallet Details </h2>
   <p> Download an unencrypted private key, grab your encrypted Mist/Geth Keystore file, or re-print your paper wallet. You may want to do this in order to <a href="http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/" target="_blank">import your account into Geth/Mist</a>. You can also do this with the <a href="https://chrome.google.com/webstore/detail/ClassicEtherWallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm/" target="__blank">ClassicEtherWallet CX</a> and save your wallet for easier and quicker access.</p>
-  <p> If you just want to check your balance, we recommend using a blockchain explorer like <a href="http://etherscan.io/" target="_blank">etherscan.io</a> or <a href="https://live.ether.camp/" target="_blank">live.ether.camp</a>.
+  <p> If you just want to check your balance, we recommend using a blockchain explorer like <a href="http:// etherhub.io/" target="_blank"> etherhub.io</a> or <a href="https://live.ether.camp/" target="_blank">live.ether.camp</a>.
   <div>
   <wallet-decrypt-drtv></wallet-decrypt-drtv>
   </div>
@@ -224,7 +224,7 @@
             Your Address:
             <div class="account-help-icon">
               <svg version="1.1" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 92 92" style="enable-background:new 0 0 92 92;" xml:space="preserve"><path fill="#2bb2dd" d="M45.386,0.004C19.983,0.344-0.333,21.215,0.005,46.619c0.34,25.393,21.209,45.715,46.611,45.377 c25.398-0.342,45.718-21.213,45.38-46.615C91.656,19.986,70.786-0.335,45.386,0.004z M45.25,74l-0.254-0.004 c-3.912-0.116-6.67-2.998-6.559-6.852c0.109-3.788,2.934-6.538,6.717-6.538l0.227,0.004c4.021,0.119,6.748,2.972,6.635,6.937 C51.904,71.346,49.123,74,45.25,74z M61.705,41.341c-0.92,1.307-2.943,2.93-5.492,4.916l-2.807,1.938 c-1.541,1.198-2.471,2.325-2.82,3.434c-0.275,0.873-0.41,1.104-0.434,2.88l-0.004,0.451H39.43l0.031-0.907 c0.131-3.728,0.223-5.921,1.768-7.733c2.424-2.846,7.771-6.289,7.998-6.435c0.766-0.577,1.412-1.234,1.893-1.936 c1.125-1.551,1.623-2.772,1.623-3.972c0-1.665-0.494-3.205-1.471-4.576c-0.939-1.323-2.723-1.993-5.303-1.993 c-2.559,0-4.311,0.812-5.359,2.478c-1.078,1.713-1.623,3.512-1.623,5.35v0.457H27.936l0.02-0.477 c0.285-6.769,2.701-11.643,7.178-14.487C37.947,18.918,41.447,18,45.531,18c5.346,0,9.859,1.299,13.412,3.861 c3.6,2.596,5.426,6.484,5.426,11.556C64.369,36.254,63.473,38.919,61.705,41.341z"/></svg>
-              <span class="account-help-text">You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you ETH. That icon is an easy way to recognize your address.</span>
+              <span class="account-help-text">You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you ETC. That icon is an easy way to recognize your address.</span>
             </div>
           </h4>
           <input class="form-control" type="text" ng-value="wallet.getChecksumAddressString()" readonly="readonly">
@@ -368,7 +368,7 @@
       <h4>Send Transaction</h4>
       <div class="form-group col-xs-10">
         <label> To Address: </label>
-        <input class="form-control"  type="text" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-model="tx.to" ng-change="validateAddress()"/>
+        <input class="form-control"  type="text" placeholder=" 0xCe5ED529977b08f87CBc207ebC216859820461eE" ng-model="tx.to" ng-change="validateAddress()"/>
         <div ng-bind-html="validateAddressStatus"></div>
       </div>
       <div class="col-xs-2 address-identicon-container">
@@ -468,7 +468,7 @@
     <div class="form-group col-xs-10">
       <label><strong>From</strong> Address: </label>
       <p class="small">Note: This is the FROM address, not the TO address. Nonce is generated from the originating account. If using an airgapped computer, it would be the address of the cold-storage account.</p>
-      <input class="form-control"  type="text" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-model="tx.from" ng-change="validateAddress(tx.from,'validateAddressStatus')"/>
+      <input class="form-control"  type="text" placeholder=" 0xCe5ED529977b08f87CBc207ebC216859820461eE" ng-model="tx.from" ng-change="validateAddress(tx.from,'validateAddressStatus')"/>
       <div ng-bind-html="validateAddressStatus"></div>
     </div>
     <div class="col-xs-2 address-identicon-container">
@@ -496,7 +496,7 @@
     <h4 class="col-xs-12"> Step 2: Generate Transaction (Offline Computer)</h4>
     <div class="form-group col-xs-10">
       <label> To Address: </label>
-      <input class="form-control"  type="text" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-model="tx.to" ng-change="validateAddress(tx.to,'validateToAddressStatus')"/>
+      <input class="form-control"  type="text" placeholder=" 0xCe5ED529977b08f87CBc207ebC216859820461eE" ng-model="tx.to" ng-change="validateAddress(tx.to,'validateToAddressStatus')"/>
       <div ng-bind-html="validateToAddressStatus"></div>
     </div>
     <div class="col-xs-2 address-identicon-container">
@@ -633,7 +633,7 @@
     <div class="col-md-12">
       <span class="form-group">
         <h4> Contract Address</h4>
-        <input class="form-control" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" />
+        <input class="form-control" placeholder=" 0xCe5ED529977b08f87CBc207ebC216859820461eE" />
         <h4> ABI / JSON Interface </h4>
         <textarea class="form-control" rows="5" placeholder='[{ "type":"contructor", "inputs": [{ "name":"param1", "type":"uint256", "indexed":true }], "name":"Event" }, { "type":"function", "inputs": [{"name":"a", "type":"uint256"}], "name":"foo", "outputs": [] }] '></textarea>
       </span>
@@ -673,7 +673,7 @@
           <span class="label">Recipient:</span>
           <span class="output">
             <div class="address-identicon-container small"><div id="addressIdenticon" title="Address Indenticon" blockie-address="{{wallet.getAddressString()}}" watch-var="wallet"></div></div>
-            0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8
+             0xCe5ED529977b08f87CBc207ebC216859820461eE
           </span>
         </p>
           <!-- example: boolean YES -->
@@ -765,7 +765,7 @@
             <h3 class="modal-title" id="myModalLabel"> <strong class="text-danger">Warning!</strong></h3>
           </div>
           <div class="modal-body">
-            <h4>You are about to execute a function on contract 0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8.</h4>
+            <h4>You are about to execute a function on contract  0xCe5ED529977b08f87CBc207ebC216859820461eE.</h4>
             <p> Estimated fee consumption: <strong> 0.00043598 ether (21,799 gas) </strong> </p>
             <p> Provided Maximum Fee: <strong> 0.00243598 ether (121,799 gas) </strong> </p>
             <p> Gas Price:  <strong> 0.021 ether per million gas </strong> </p>
@@ -799,7 +799,7 @@
 
   <h4>First, a reminder </h4>
   <ul>
-    <li><strong>Ethereum, ClassicEtherWallet.com & ClassicEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.</strong> While we have tested thoroughly & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. While do everything we can to ensure that this does not happen and are available via email/reddit/twitter to assist in every way we can, this possibility still exists. Please do not invest more than you are willing to lose and please be careful. If something were to happen, we are sorry, <strong>but we are not responsible for the lost Ether.</strong></li>
+    <li><strong>Ethereum, ClassicEtherWallet.com & ClassicEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.</strong> While we have tested thoroughly & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETC to be lost. While do everything we can to ensure that this does not happen and are available via email/reddit/twitter to assist in every way we can, this possibility still exists. Please do not invest more than you are willing to lose and please be careful. If something were to happen, we are sorry, <strong>but we are not responsible for the lost Ether.</strong></li>
     <li>ClassicEtherWallet.com & ClassicEtherWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data is created on our computer/your browser, not our servers. It's not a website where you put your Ether and we store them for you. We just make it easy for you to save your wallet information in your browser/on your computer. Then we give you a place you to access that information and do stuff with it.</li>
     <li>Please, do not forget to save your private key & password when you create a new wallet. Back them up in multiple phsyical locations &ndash; not just on your computer!</li>
     <li>Please make sure you are sending to the correct address.</li>
@@ -858,7 +858,7 @@
     <li>Double-Click index.html.</li>
     <li>Generate wallet with a strong password.</li>
     <li>Save keystore file and print wallet or write down private key on piece of paper.</li>
-    <li>Save address as well. You will need to address to send ETH to yourself later.</li>
+    <li>Save address as well. You will need to address to send ETC to yourself later.</li>
     <li>Store these papers / USBs in multiple physically separate locations.</li>
     <li>Go to the view wallet details tab and type in your private key / password from your piece of paper to ensure they are correct and access your wallet. Check that the address you wrote down is the same.</li>
     <li>Refresh that page. Select the keystore file and enter the password to ensure it are correct and can access your wallet. Check that the address you saved on your computer or USB is the same.</li>
@@ -876,14 +876,14 @@
     <li> If the wallet is the encrypted, a text box will automatically appear. Enter the password. </li>
     <li> Click the "Decrypt" button. </li>
     <li> Your wallet information should show up. The account address is on the left side, underneath a colorful icon. This icon visually represents your address. Be certain that the address is the address you have saved to your text document. </li>
-    <li> That's it. You can now send ETH to that address and be certain you can access it!</li>
+    <li> That's it. You can now send ETC to that address and be certain you can access it!</li>
   </ol>
 
 
 
   <h4>4. How do I send Ether from one wallet to another? </h4>
   <p> Once you have saved and backed up all information <strong> and </strong> verified you have access to your new wallet, you can transfer some Ether to that new wallet.</p>
-  <p><strong>Before you start,</strong> If you plan to move a large amount of ether, you should test sending a small amount first to make sure everything goes smoothly. After making the small transaction, you can check by pasting the TX ID or the address into a blockchain explorer, e.g. <a href="https://www.etherscan.io" target="_blank">https://www.etherscan.io</a>.</p>
+  <p><strong>Before you start,</strong> If you plan to move a large amount of ether, you should test sending a small amount first to make sure everything goes smoothly. After making the small transaction, you can check by pasting the TX ID or the address into a blockchain explorer, e.g. <a href="https://www. etherhub.io" target="_blank">https://www. etherhub.io</a>.</p>
   <ol>
     <li> Navigate to the "Send Transaction" tab</li>
     <li> Select your wallet file -or- paste your private key. </li>
@@ -1011,7 +1011,7 @@
 
 
   <h4>14. How do I check the balance of my account? </h4>
-  <p> You can use a blockchain explorer like <a href="http://etherscan.io/" target="_blank">etherscan.io</a>. Paste your address into the search bar and it will pull up your address and transaction history. For example, here's what our <a href="http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8" target="_blank">donation account</a> looks like on etherscan.io</p>
+  <p> You can use a blockchain explorer like <a href="http:// etherhub.io/" target="_blank"> etherhub.io</a>. Paste your address into the search bar and it will pull up your address and transaction history. For example, here's what our <a href="http:// etherhub.io/addr/ 0xCe5ED529977b08f87CBc207ebC216859820461eE" target="_blank">donation account</a> looks like on  etherhub.io</p>
 
 
   <h4>15. Where the hell is my geth wallet file? </h4>
@@ -1032,8 +1032,8 @@
   <h4> 18. Couldn't everybody could put in random private keys, look for a balance, and send to their own address? </h4>
   <p> Short version: yes, but finding an account with a balance would take longer than the universe...so...no.</p>
   <p>Long ELI5 Version: So Ethereum is based on <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" target="_blank">Public Key Cryptography</a>, specifically <a href="https://eprint.iacr.org/2013/734.pdf" target="_blank"> Elliptic curve cryptography </a> which is very widely used, not just in Ethereum. Most servers are protected via ECC. Bitcoin uses the same, as well as SSH and TLS and heaps of other stuff. The Ethereum keys specifically are 256-bit keys, which are stronger than 128-bit and 192-bit, which are also widely used and still considered secure by experts.</p>
-  <p>In this you have a private key and a public key. The private key can derive the public key, but the public key cannot be turned back into the private key. The fact that the internet and the world’s secrets are using this, or a variation of, this cryptography means that if for some reason there is suddenly a way  to go from public key -> private key, your lost ETH is the <em>least</em> of everyone’s problems.</p>
-  <p>Now, that said, YES if someone else has your private key then they can indeed send ETH from your account. Just like if someone has your password to your email, they can read and send your email, or the password to your bank account, they could make transfers (or maybe pay your bills). For this reason, you could download the Keystore version of your private key which is the private key, encrypted with a password. This is like having a password that is also protected by another password.</p>
+  <p>In this you have a private key and a public key. The private key can derive the public key, but the public key cannot be turned back into the private key. The fact that the internet and the world’s secrets are using this, or a variation of, this cryptography means that if for some reason there is suddenly a way  to go from public key -> private key, your lost ETC is the <em>least</em> of everyone’s problems.</p>
+  <p>Now, that said, YES if someone else has your private key then they can indeed send ETC from your account. Just like if someone has your password to your email, they can read and send your email, or the password to your bank account, they could make transfers (or maybe pay your bills). For this reason, you could download the Keystore version of your private key which is the private key, encrypted with a password. This is like having a password that is also protected by another password.</p>
   <p>And YES, in theory you could just type in a string of 64 hexadecimal characters until you got one that matched. In fact, smart people could write a program to very quickly check random private keys. This is known as "brute-forcing" or "mining" private keys. People have thought about this long and hard, especially when Bitcoin exploded. With a few very high end servers, they may be able to check 1M+ keys / second. However, even checking that many per second would not yield access to make the cost of running those servers even close to worth while - it is more likely you, and your great-grandchildren, will die before getting a match.</p>
   <p>If you know anything about Bitcoin, <a href="http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver" target="_blank">this will put it in perspective:</a> <em>To illustrate how unlikely this is: suppose every satoshi of every bitcoin ever to be generated was sent to its own unique private keys. The probability that among those keys there could be two that would correspond to the same address is roughly one in 100 quintillion.</em></p>
   <p><a href="http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392" target="_blank">If you want something a bit more technical, take a look here:</a> <em>These numbers have nothing to do with the technology of the devices; they are the maximums that thermodynamics will allow. And they strongly imply that brute-force attacks against 256-bit keys will be infeasible until computers are built from something other than matter and occupy something other than space.</em></p>
@@ -1073,7 +1073,7 @@
     <li><a href="https://ethereum.org/" target="_blank">Official Ethereum Site</a></li>
     <li><a href="https://www.reddit.com/r/ethereum" target="_blank">Ethereum Subreddit </a></li>
     <li><a href="https://www.reddit.com/user/insomniasexx/m/all_ethereum" target="_blank">insom's Ethereum Multi-reddit </a></li>
-    <li><a href="http://etherscan.io/" target="_blank"> Blockchain Explorer - etherscan.io</a></li>
+    <li><a href="http:// etherhub.io/" target="_blank"> Blockchain Explorer -  etherhub.io</a></li>
     <li><a href="https://github.com/davidshimjs/qrcodejs" target="_blank">QR code library</a></li>
     <li><a href="https://github.com/SilentCicero/ethereumjs-accounts" target="_blank">Ethereum Accounts library</a></li>
     <li><a href="https://code.google.com/p/crypto-js/" target="_blank">CryptoJS library</a></li>
@@ -1212,7 +1212,7 @@
     <p><a href="https://www.ClassicEtherWallet.com/"><img src="images/etherwallet-logo.png" height="70px" width="auto" alt="Ether Wallet" /></a></p>
 
     <p>An open source, javascript, client-side tool for generating Ethererum Wallets & sending transactions. Created by <a href="https://github.com/kvhnuke" target="_blank">kvhnuke</a> and <a href="https://github.com/tayvano" target="_blank">tayvano</a>.</p>
-    <p class="wrap"> Donations greatly appreciated: <span class="mono">0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8</span> </p>
+    <p class="wrap"> Donations greatly appreciated: <span class="mono"> 0xCe5ED529977b08f87CBc207ebC216859820461eE</span> </p>
     <p>
     URLs:
       <a href="https://www.ClassicEtherWallet.com" target="_blank">www.ClassicEtherWallet.com</a> &middot;

@@ -1,9 +1,17 @@
+
 # ETC-CX-Wallet
-Ethereum classic chrome extension wallet
+![screenshot](https://github.com/realcodywburns/ETC-CX-Wallet/blob/master/chrome-extension/images/walletcx.png)
 
-0) git clone https://github.com/realcodywburns/ETC-CX-wallet.git 
 
-1) In chrome goto chrome://extensions/
+A lightweight Ethereum classic wallet for google chrome
+
+#How to install
+
+0) Download the wallet
+
+git clone https://github.com/realcodywburns/ETC-CX-wallet.git 
+
+1) In chrome go to chrome://extensions/
 
 2) Click 'load unpacked extension'
 

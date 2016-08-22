@@ -7,12 +7,9 @@ A lightweight Ethereum classic wallet for google chrome
 
 #How to install
 
-0) Download the wallet
+1) Download the wallet
 
 git clone https://github.com/realcodywburns/ETC-CX-wallet.git 
 
-1) In chrome go to chrome://extensions/
+2) Drag and drop the crx file into chrome
 
-2) Click 'load unpacked extension'
-
-3) navigate to the cx-wallet folder

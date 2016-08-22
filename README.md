@@ -15,9 +15,13 @@ git clone https://github.com/realcodywburns/ETC-CX-wallet.git
 
 ##Option 2
 1.) Download Zip.
+
 2.) Extract Folder "ETC-CX-Wallet-upgrade."
+
 3.) Open Google Chrome.
+
 4.) Open Settings > Extensions > Load Unpacked Extension
+
 5.) Open ETC-CX-Wallet-upgrade > Choose File "Chrome Extension"
 
 ##Option 3 

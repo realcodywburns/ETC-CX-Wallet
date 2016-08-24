@@ -1,4 +1,4 @@
-###This project is a sub-project of https://github.com/ethereumproject/etherwallet  and is intended for offline editing by cody.  Such may be missing parts of code. 
+###This project is a sub-project of https://github.com/ethereumproject/etherwallet  and is intended for offline editing by cody. As such may be missing parts of code. 
 
 
 

@@ -1,3 +1,7 @@
+###This project is a sub-project of https://github.com/ethereumproject/etherwallet  and is intended for offline editing by cody.  Such may be missing parts of code. 
+
+
+
 
 # ETC-CX-Wallet
 ![screenshot](https://github.com/realcodywburns/ETC-CX-Wallet/blob/master/chrome-extension/images/walletcx.png)
